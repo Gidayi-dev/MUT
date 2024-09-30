@@ -1,0 +1,27 @@
+.header-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    background-color: #ecdfcc;
+  }
+  .navigation-list {
+    display: flex;
+    list-style: none;
+    gap: 4rem;
+    font-size: 3rem;
+  }
+  .navigation-link {
+    text-decoration: none;
+    color: black;
+  }
+  .logo-text {
+    display: flex;
+    font-size: 3rem;
+  }
+  .navigation-item :hover {
+    padding: 1rem;
+    background-color: #3c3d37;
+    color: #ecdfcc;
+    border-radius: 6px;
+    transition: 0.6s;
+  }

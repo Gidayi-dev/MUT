@@ -1,0 +1,102 @@
+.about-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    background-color: #ecdfcc;
+    text-align: center;
+  }
+  .about-head {
+    font-size: 2rem;
+  }
+  
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 400px 700px 300px;
+  }
+  
+  .about-description {
+    flex: 2;
+    text-align: left;
+    font-size: 1.7em;
+    padding-left: 20px;
+    max-width: 700px;
+    line-height: 3rem;
+  }
+  
+  .about-statements {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mission,
+  .values,
+  .objectives {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    text-align: justify;
+    cursor: pointer;
+  }
+  
+  .mission:hover {
+    background-color: #697565;
+  }
+  
+  .values:hover {
+    background-color: #697565;
+  }
+  
+  .objectives:hover {
+    background-color: #697565;
+  }
+  .mission h1,
+  .values h1,
+  .objectives h1 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .mission p,
+  .values ul,
+  .objectives ul {
+    font-size: 1.86em;
+    line-height: 2em;
+    padding: 0;
+  }
+  
+  .values ul,
+  .objectives ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .values ul li,
+  .objectives ul li {
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }

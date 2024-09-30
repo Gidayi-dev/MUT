@@ -1,0 +1,98 @@
+
+.leadership-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.leadership-heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+.leadership-description {
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 2rem;
+}
+.top-leaders,
+.other-leaders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.leadership-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: auto;
+    font-size: 1.3rem;
+}
+.leadership-card:hover {
+    transform: translateY(-10px);
+}
+
+.leader-image img {
+    width: 70%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 300px;
+
+}
+.leader-name {
+    font-size: 1.5em;
+    margin: 15px 0 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.leader-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #888;
+}
+
+.leader-bio {
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    color: #666;
+}
+.social-media-icons a {
+    color: #333;
+    font-size: 1.5em;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-media-icons a:hover {
+    color: #0073b1; 
+}
+
+.social-media-icons a[href*="linkedin"]:hover {
+    color: #0077b5; 
+}
+
+.social-media-icons a[href*="twitter"]:hover {
+    color: #1da1f2;
+}
+
+.social-media-icons a[href*="facebook"]:hover {
+    color: #3b5998; 
+}
+
+.social-media-icons a[href*="instagram"]:hover {
+    color: #e4405f; 
+}

@@ -1,0 +1,16 @@
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/hero2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .hero-text {
+    font-size: 4rem;
+    color: azure;
+    text-align: center;
+    max-width: 40%;
+  }
