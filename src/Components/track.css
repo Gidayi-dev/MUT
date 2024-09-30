@@ -1,67 +1,88 @@
+.tracks-page {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
 .tracks-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 40px;
-  }
-  
-  .track-item {
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .track-circle {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-color: #f5f5f5;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .track-circle:hover {
-    transform: scale(1.05);
-  }
-  
-  .track-circle h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #333;
-  }
-  
-  .track-circle p {
-    font-size: 0.9rem;
-    color: #666;
-  }
-  
-  @media (max-width: 768px) {
-    .track-item {
-      width: 150px;
-      height: 150px;
-    }
-  
-    .track-circle {
-      width: 130px;
-      height: 130px;
-      padding: 15px;
-    }
-  
-    .track-circle h3 {
-      font-size: 1rem;
-    }
-  
-    .track-circle p {
-      font-size: 0.8rem;
-    }
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.track-item {
+  background-color: #f8f9fa;
+  border-radius: 20px;
+  padding: 15px;
+  margin: 10px 0;
+  width: 80%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  height: fit-content;
+  font-size: 1.6rem;
+}
+
+.track-item:hover {
+  transform: scale(1.02);
+}
+
+.track-circle {
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.track-circle h3 {
+  font-size: 1.5rem;
+}
+
+.track-circle p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.form-container {
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  margin-left: 3rem;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  background-color: rgb(75, 82, 85);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #697565;
+}

@@ -5,7 +5,7 @@ import AboutUs from "./Components/about/";
 import Testimonials from "./Components/testimonials/";
 import Leadership from "./Components/leadership/";
 import TracksPage from "./Components/track/";
-
+import EventsPage from "./Components/event/";
 
 function App() {
   return (
@@ -16,6 +16,7 @@ function App() {
       <Testimonials />
       <Leadership />
       <TracksPage />
+      <EventsPage />
     
     </>
   );

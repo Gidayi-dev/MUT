@@ -1,1 +1,68 @@
-66
+.events-page {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .page-description {
+    font-size: 1.4rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 20px; 
+    max-width: 800px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px; 
+  }
+  
+  .events-image {
+    max-width: 50%; 
+    border-radius: 10px;
+  }
+  
+  .schedule-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .schedule-item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-header {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .event-time {
+    font-weight: bold;
+    color: black;
+  }
+
+  .event-location,
+  .event-instructor {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .event-description {
+    color: #666;
+  }
+  
