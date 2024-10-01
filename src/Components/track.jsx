@@ -35,7 +35,7 @@ function TracksPage() {
     const data = Object.fromEntries(formData.entries());
     console.log(data);
   };
-  6
+  
   return (
     <div className="tracks-page">
       <div className="tracks-container">
