@@ -38,7 +38,7 @@ function AboutUs() {
             of tomorrow.
           </p>
         </div>
-        6
+        
         <div className="values">
           <h1>OUR VALUES:</h1>
           <ul>

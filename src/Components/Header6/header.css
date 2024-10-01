@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 1rem 0;
     background-color: #ecdfcc;
+  
   }
   .navigation-list {
     display: flex;
@@ -24,4 +25,35 @@
     color: #ecdfcc;
     border-radius: 6px;
     transition: 0.6s;
+  }
+
+  @media screen and (max-width: 900px) {
+    .header-navigation {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  }
+  
+  @media screen and (max-width: 780px){
+    .navigation-list {
+      font-size: 2rem;
+      gap: 3rem;
+      align-items: center;
+      justify-content: center;
+      
+    };
+
+    
+  }
+
+  
+  @media screen and (max-width: 550px) {
+    .navigation-list {
+      gap: 2rem;
+      font-size: 1rem;
+      
+    }
+    
   }
